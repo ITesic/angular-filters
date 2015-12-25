@@ -1,0 +1,26 @@
+{
+  "name": "angular-filters",
+  "homepage": "https://github.com/ITesic/angular-filters",
+  "authors": [
+    "Ilija Tesic <ilija.tesic@gmail.com>"
+  ],
+  "description": "Common used filters for AngularJS",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.8",
+    "angular-underscore": "~0.5.0",
+    "angular-bootstrap": "~0.14.3",
+    "underscore": "~1.8.3",
+    "bootstrap": "~3.3.6",
+    "ng-underscore": "~0.1.0"
+  }
+}

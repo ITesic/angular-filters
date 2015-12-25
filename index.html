@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Demo application for Angular Filters</title>
+
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" media="screen">
+        <link rel="stylesheet" href="styles/main.css" media="screen">
+    </head>
+    <body ng-app="app">
+
+        <div ng-controller="MainCtrl" class="container">
+            <div class="hero">
+                <h1>Demo application for Angular Filters</h1>
+                <p>
+                    Purpose of this app is to demonstrate common filters available in this package.
+                    It also provides documentation and demo for all filters.
+                </p>
+            </div>
+            <div class="col-md-6 columns">
+                <h2>String filters</h2>
+                <h3>Uppercase</h3>
+                <p>Ilija -> {{ ilija | stringUppercase }}</p>
+                <h3>Lowercase</h3>
+                <p>Ilija -> {{ ilija | stringLowercase }}</p>
+            </div>
+            <div class="col-md-6 columns">
+
+            </div>
+        </div>
+
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="scripts/app.js"></script>
+
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+        <script src="bower_components/underscore/underscore.js"></script>
+        <script src="bower_components/ng-underscore/build/ng-underscore.min.js"></script>
+
+        <script src="scripts/filters/angular-filters.js"></script>
+        <script src="scripts/filters/array/array.js"></script>
+        <script src="scripts/filters/datetime/datetime.js"></script>
+        <script src="scripts/filters/number/number.js"></script>
+        <script src="scripts/filters/object/object.js"></script>
+
+        <script src="scripts/filters/string/string.js"></script>
+        <script src="scripts/filters/string/string-uppercase.filter.js"></script>
+        <script src="scripts/filters/string/string-lowercase.filter.js"></script>
+    </body>
+</html>
